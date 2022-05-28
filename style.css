@@ -1,0 +1,436 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+    
+ }
+
+ body{
+     background-color: #1A4E80;
+     
+ }
+ 
+ .request{
+     background-color: white;
+     width:600px;
+     height:400px;
+     margin-top: 180px;
+     text-align: center;
+     border:2px solid #EDE11B;
+     border-radius: 20px;
+
+ } 
+ .logo{
+     
+    padding-top: 60px;
+ }
+ .btn{
+     background-color: #EDE11B;
+     border: none;
+     border-radius: 10px;
+     outline: none;
+     width:280px;
+     height: 60px;
+     font-size: 22px;
+     font-weight: 700; 
+     font-family: 'inter';
+     word-spacing: 2px;
+     color: #1A4E80;
+     text-transform: uppercase ;
+     margin-top: 30px;
+     box-shadow: 2px 2px 1px #1A4E80 ;
+     
+ }
+ .btn:hover{
+     color: white;
+ }
+ .btn:active{
+     color: #1A4E80;
+ }
+  /* .homepg{ */
+     /* background-image: url(/images/leave_3_91.jpg);  */
+     /* background-repeat: no-repeat; */
+     /* border-radius:2px solid black;
+     border-radius: 8px;
+     text-align: center;
+     width:800px;
+     height:650px;
+     margin-top: 100px;
+     margin-left: 300px; 
+     #1A4E80
+     #EDE11B
+  } */
+
+ /* .bsklogo{
+     margin-top: 50px;
+     padding-top: 50px;   
+ }
+ .request{
+     margin-top: 200px;
+     font-size: 22px;
+     font-family: "PT Sans";
+     font-weight:900;
+     color:  black;   
+ }
+  h2{
+    margin-left: 100px;
+ }
+
+ h4{
+     line-height: 50px;
+     font-size: 20px;
+     margin-left: 100px;   
+ } 
+
+ .btn{
+     width:190px;
+     height:50px;
+     border-radius: 8px ;
+     border: none;
+     outline: none;
+     font-size: 16px;
+     font-weight: 700;     
+     margin-top: 80px;
+     margin-left: 100px; 
+     color: yellow;
+     background-color: rgb(2, 53, 100);
+ }
+ .btn:hover{
+    background-color: rgb(2, 53, 100);
+ }
+ .btn:active{
+    color: white;
+    background-color: rgb(2, 53, 100);
+ } */
+
+
+ form{
+    background-image: url(/images/Frame\ 1\ \(5\).png); 
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 12px;
+    width:700px;
+    height:1400px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 300px;
+    padding-top: 80px;
+ }
+ form{
+   margin-top: 150px;
+}
+
+ div{
+    margin: 15px auto;
+    line-height: 35px;
+    display: none;
+}
+
+ .container label,.leave1,.leave11,.gender,.department,.daysrequired,.daystaken,.daysyettaken,.birthday,.birthdays,.staffid,.name,.surname,.email,.relname{
+    /* display:block;  */
+    padding:20px;
+    font-size: 25px;
+    font-family: "PT Sans";
+    font-weight: 900;
+    color: #2C3F71;
+}
+ input[type=text]{
+    /* width:50%; */
+    width:50%;
+    padding:10px;
+    border:1px solid black;
+    margin-left:20px;
+    font-size:15px;
+    border-radius:3px;
+}
+.surname{
+    margin-right: 125px;
+}
+.gender{
+    margin-right: 110px;
+}
+.daysyettaken{
+    margin-right: 140px;
+}
+.birthday{
+    margin-right: 260px;
+}
+.birthdays{
+    margin-right: 220px; 
+}
+.staffid{
+    margin-right: 250px;
+}
+.email{
+    margin-right: 70px;
+}
+.leave1{
+    margin-right: 130px; 
+}
+.leave11{
+    margin-right: 30px;
+
+}
+.daysrequired{
+    margin-right: 150px;
+}
+.daystaken{
+    margin-right: 180px;
+}
+.department{
+    margin-right: 250px; 
+}
+.relname{
+    margin-right:  180px;
+}
+
+input[type=checkbox]{
+    display: inline-block;
+}
+
+.gends,.status{
+    margin-right:150px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: "PT Sans";
+    font-weight: 900;
+    color: #2C3F71;
+    vertical-align: middle;
+    position: relative;
+}
+.terms{
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: 900;
+    color: #2C3F71;
+    padding: 30px;
+}
+.custom-select{
+    width:400px;
+    padding:10px;
+    border:1px solid black;
+    margin-left:20px;
+    font-size:20px;
+    border-radius:3px;
+    font-family: "PT Sans";
+    color: #3e3e3e;
+    opacity: 0.5;
+    font-weight: 900;
+    
+}
+ input[type='date']{
+   display: block; 
+   width:50%;
+    height: 40px;
+    padding:10px;
+    border:1px solid black;
+    /* margin-left:20px; */
+    font-size:15px;
+    border-radius:3px; 
+}
+.dat{
+    border:none;
+    outline:none;
+    margin-left:150px ;
+    font-size: 18px;
+}
+
+.birth{
+    border:1px solid black;
+    border-radius: 3px;
+    margin-left:150px ;
+    line-height: 50px;
+    font-size: 18px;
+    padding-top: 3px;
+    /* color:white; */
+    opacity:0.5;
+    
+}
+  .bttn{
+      display: flex;
+      justify-content:center;
+      
+  }
+  .bttn button{
+      padding:10px 30px;
+      border:none;
+      border-radius:5px;
+      outline:none;
+      cursor:pointer;
+      margin-top: 30px;
+      margin-left:18px;
+      background-color: rgb(2, 53, 100);
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+
+  }
+  input.inlineCheckbox1, input.inlineCheckbox2, input.inlineCheckbox3, input.inlineCheckbox4, input.terms,input.inlineradio1,input.inlineradio2,input.inlineradio3{
+    width: 20px;
+    height: 20px;
+
+  }
+  .checkbox-inline1,.checkbox-inline2,.checkbox-inline3,.checkbox-inline4,.checkbox-radio1,.checkbox-radio2,.checkbox-radio3{
+    /* margin-right: 2px; */
+    padding:8px;
+    /* padding-left: 50px; */
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: 900;
+    color: #2C3F71;
+    line-height: 10%;
+   
+}
+  
+  /* .back{
+      margin-left: 150px;
+  }
+   */
+ /* button{
+    margin:8px; */
+    /* margin-top: 50px;
+    margin-left: 20px; */
+    /* padding:10px;
+    width:100px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: yellow;
+    background-color: rgb(2, 53, 100);    
+    font-weight:bold;
+    float:right;
+    margin-right: 150px; */
+    /* margin-top: 60px;
+    margin-right: 140px; */
+/* }  */
+
+
+
+
+
+ /* ....about page*/
+  /* .container{
+    background-image: url(/images/pngwing\ 1.png); 
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 12px;
+    width:700px;
+    height:400px;
+    margin-top: 100px;
+    margin-left: 300px;
+
+ } 
+  input[type=text]{
+     background: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid black;
+     margin-right: 150px;
+     width:200px;
+ } 
+ .name{
+     padding-top: 100px;
+     text-align: center;
+     font-size: 25px;
+     font-weight: 900;
+     font-family: "PT Sans";
+     color: #2C3F71;    
+ }
+ .next{
+    width:150px;
+    height:40px;
+    margin-left: 175px;
+    border-radius: 25px ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: yellow;
+    background-color: rgb(2, 53, 100);   
+ }
+ .next:hover,.back1:hover,.next1:hover,.back2:hover,.next2:hover{
+    background-color: #2C3F71;
+ }
+ .next:active,.back1:active, .next1:active,.back2:active,.next2:active{
+    color: white;
+    background-color: #2C3F71;
+ }
+ 
+ .arrow{
+    width:0.1px;
+    height:4px;
+
+ }
+ /* /second form-/ */
+ /* .name1,.name2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "PT Sans";
+    color: #2C3F71;
+    margin-right: 150px;    
+}
+input[type=text1],input[type=text2]{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-right: 10px;
+    width:200px;
+} 
+
+.back1,.back2{
+    width:150px;
+    height:40px;
+    margin-left: 175px;
+    border-radius: 25px ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: yellow;
+    background-color: rgb(2, 53, 100); 
+}
+
+ .next1,.next2{
+    width:150px;
+    height:40px;
+    margin-left: 100px;
+    border-radius: 25px ;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+    color: yellow;
+    background-color: rgb(2, 53, 100);   
+ } */
+
+
+/* /third form-/ */
+ 
+
+
+
+ 
+
+ /* #Form2{
+     left:450px;
+ }
+ #Form3{
+     left:-450px;
+ }
+ #Form1,#Form2,#Form3{
+     height:300px;
+     
+     
+ }
+ #Form{
+     /* display:none; */
+ /* } */
+   
+ 
